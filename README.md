@@ -29,18 +29,18 @@ from sklearn.preprocessing import StandardScaler
 The original data consists of cryptocurrency coin names and price change percentages for each coin
 at 24 hours, 7 days, 14 days, 30 days, 60 days, 200 days and 1 year.
 
-![Graph of Original Data](original_data_graph.png)
+![Graph of Original Data](Resources/original_data_graph.png)
 
 
 The program uses the elbow method to find the best k fit for the original data using a range of 1 to 11.
 
-![Graph of Elbow Method for Original Data](elbow_curve_original_data)
+![Graph of Elbow Method for Original Data](Resources/elbow_curve_original_data.png)
 
 
 The best fit for k in the original data is 4, so that is used in the KMeans analysis using the 
 Model, Fit, Predict method.
 
-![KMeans Clusters with Original Data](kmeans_original_data.png)
+![KMeans Clusters with Original Data](Resources/kmeans_original_data.png)
 
 
 
@@ -51,13 +51,13 @@ The program created a PCA instance with 3 components that explained 88% of the v
 
 The program uses the elbow method to find the best k fit for the PCA data using a range of 1 to 11.
 
-![Graph of Elbow Method for PCA Data](elbow_curve_pca_data)
+![Graph of Elbow Method for PCA Data](Resources/elbow_curve_pca_data.png)
 
 
 The best fit for k in the original data is 4, so that is used in the KMeans analysis using the 
 Model, Fit, Predict method.
 
-![KMeans Clusters with PCA Data](kmeans_pca_data.png)
+![KMeans Clusters with PCA Data](Resources/kmeans_pca_data.png)
 
 
 #Creator
